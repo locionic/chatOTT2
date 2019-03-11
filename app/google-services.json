@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "974476195541",
+    "firebase_url": "https://chatott2.firebaseio.com",
+    "project_id": "chatott2",
+    "storage_bucket": "chatott2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974476195541:android:c143feb4db4846fb",
+        "android_client_info": {
+          "package_name": "com.example.chatott2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974476195541-a8r8kemlq4nd2b376r3hihq2uucbm8sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatott2",
+            "certificate_hash": "54e571876c49461610eed6f9b16645df6b202b8a"
+          }
+        },
+        {
+          "client_id": "974476195541-a0uh7bdn30utoa614bm0f365jk1vc72h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVx-rMLov3sc2hWT7B1454eBF3uqMMgi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974476195541-a0uh7bdn30utoa614bm0f365jk1vc72h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
