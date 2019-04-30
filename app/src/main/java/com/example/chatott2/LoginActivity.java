@@ -42,11 +42,11 @@ public class LoginActivity extends AppCompatActivity {
 
 
         //Init variables
-        email = findViewById(R.id.email);
+        email = findViewById(R.id.email); //Lay gia tri cua bien email va password
         password = findViewById(R.id.password);
-        btn_login = findViewById(R.id.btn_login);
+        btn_login = findViewById(R.id.btn_login); //Lay gia tri cua button login khi click hoac enter
 
-        forgot_password = findViewById(R.id.forgot_password);
+        forgot_password = findViewById(R.id.forgot_password); //Day la cho chuc nang reset password, phan nay t se noi sau
 
         forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,9 +61,9 @@ public class LoginActivity extends AppCompatActivity {
                 String txt_email = email.getText().toString();
                 String txt_password = password.getText().toString();
                 if(TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)){
-                    Toast.makeText(LoginActivity.this, "All filed are required", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "All filed are required", Toast.LENGTH_SHORT).show(); //Check xem email va password da nhap hay chua
                 }else {
-                    auth.signInWithEmailAndPassword(txt_email, txt_password)
+                    auth.signInWithEmailAndPassword(txt_email, txt_password) //Neu nhap roi thi gui input( email, password) len firebase
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {

@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
             super(fm);
             this.fragmentArrayList = new ArrayList<>();
             this.titles = new ArrayList<>();
+
         }
 
         @Override
